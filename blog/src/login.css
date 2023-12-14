@@ -31,9 +31,7 @@
 }
 
 .loginbtn {
-    margin-top: 20px;
     cursor: pointer;
-    background-color: lightcoral;
     border: none;
     color: white;
     border-radius: 10px;

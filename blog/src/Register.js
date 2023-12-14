@@ -45,12 +45,13 @@ const Register = () => {
                     className='registerinput'
                     placeholder="Enter Your Password..."
                     onChange={e => setpassword(e.target.value)} />
-                <button className="registerbtn" type="submit">Register</button>
+                <button className="registerbtn" type="submit"
+                    style={{ marginTop: "20px", backgroundColor: "teal" }}>Register</button>
             </form>
             <Link to="/Login">
                 <button className="registerloginbtn">Login</button>
             </Link>
-            {error && <span style={{color:"red", marginTop:"10px"}}>Something went wrong...</span>}
+            {error && <span style={{ color: "red", marginTop: "10px" }}>Something went wrong...</span>}
         </div>
     )
 }

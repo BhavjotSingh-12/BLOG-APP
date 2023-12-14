@@ -38,7 +38,8 @@ const Login = () => {
                     placeholder="Enter Your Password..."
                     ref={passRef}
                 />
-                <button className="loginbtn" type="submit" disabled={isFetching}>Login</button>
+                <button className="loginbtn" type="submit" disabled={isFetching} 
+                style={{marginTop:"20px",backgroundColor:"lightcoral"}}>Login</button>
             </form>
             <Link to="/Register"><button className="registerloginbtn">Register</button></Link>
         </div>
